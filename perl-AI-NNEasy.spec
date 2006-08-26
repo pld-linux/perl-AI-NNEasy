@@ -9,7 +9,7 @@ Summary:	AI::NNEasy - Define, learn and use easy Neural Networks of different ty
 Summary(pl):	AI::NNEasy - definiowanie, uczenie i u¿ywanie ³atwych sieci neuronowych
 Name:		perl-AI-NNEasy
 Version:	0.06
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -19,7 +19,6 @@ BuildRequires:	perl-Class-HPLOO >= 0.21
 BuildRequires:	perl-Inline >= 0.44
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
-BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
