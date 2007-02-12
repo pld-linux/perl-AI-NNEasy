@@ -6,7 +6,7 @@
 %define	pdir	AI
 %define	pnam	NNEasy
 Summary:	AI::NNEasy - Define, learn and use easy Neural Networks of different types
-Summary(pl):	AI::NNEasy - definiowanie, uczenie i u¿ywanie ³atwych sieci neuronowych
+Summary(pl.UTF-8):   AI::NNEasy - definiowanie, uczenie i uÅ¼ywanie Å‚atwych sieci neuronowych
 Name:		perl-AI-NNEasy
 Version:	0.06
 Release:	2
@@ -42,27 +42,27 @@ With this module you don't need to learn much about NN to be able to
 construct one, you just define the construction of the NN, learn your
 set of inputs, and use it.
 
-%description -l pl
-G³ównym celem tego modu³u jest tworzenie ³atwych sieci neuronowych
-(Neural Networks, w skrócie NN) w Perlu.
+%description -l pl.UTF-8
+GÅ‚Ã³wnym celem tego moduÅ‚u jest tworzenie Å‚atwych sieci neuronowych
+(Neural Networks, w skrÃ³cie NN) w Perlu.
 
-Modu³ zosta³ zaprojektowany tak, aby mo¿na by³o go rozszerzaæ do wielu
-rodzajów sieci, algorytmów ucz±cych czy funkcji aktywacyjnych.
-Architektura ta zosta³a najpierw oparta na module AI::NNFlex,
-nastêpnie przepisana w celu poprawienia b³êdów serializacji,
+ModuÅ‚ zostaÅ‚ zaprojektowany tak, aby moÅ¼na byÅ‚o go rozszerzaÄ‡ do wielu
+rodzajÃ³w sieci, algorytmÃ³w uczÄ…cych czy funkcji aktywacyjnych.
+Architektura ta zostaÅ‚a najpierw oparta na module AI::NNFlex,
+nastÄ™pnie przepisana w celu poprawienia bÅ‚Ä™dÃ³w serializacji,
 zoptymalizowana wraz z dodaniem funkcji XS w celu poprawienia
-szybko¶ci w procesie uczenia. Ostatecznie dodano intuicyjny interfejs
-do tworzenia i u¿ywania sieci neuronowych oraz dodano algorytm
-zwyciêzcy na wyj¶ciu.
+szybkoÅ›ci w procesie uczenia. Ostatecznie dodano intuicyjny interfejs
+do tworzenia i uÅ¼ywania sieci neuronowych oraz dodano algorytm
+zwyciÄ™zcy na wyjÅ›ciu.
 
-Modu³ ten zosta³ napisany poniewa¿ po testach ró¿nych modu³ów do sieci
-neuronowych autor nie znalaz³ ¿adnego wystarczaj±co przeno¶nego miêdzy
-Linuksem a Windows, ³atwego w u¿yciu i co najwa¿niejsze naprawdê
-dzia³aj±cego przy rzeczywistych problemach.
+ModuÅ‚ ten zostaÅ‚ napisany poniewaÅ¼ po testach rÃ³Å¼nych moduÅ‚Ã³w do sieci
+neuronowych autor nie znalazÅ‚ Å¼adnego wystarczajÄ…co przenoÅ›nego miÄ™dzy
+Linuksem a Windows, Å‚atwego w uÅ¼yciu i co najwaÅ¼niejsze naprawdÄ™
+dziaÅ‚ajÄ…cego przy rzeczywistych problemach.
 
-Przy u¿yciu tego modu³u nie trzeba uczyæ siê zbyt wiele o sieciach
-neuronowych aby móc takow± skonstruowaæ, wystarczy zdefiniowaæ
-konstrukcjê sieci, nauczyæ zbiór wej¶æ i u¿ywaæ.
+Przy uÅ¼yciu tego moduÅ‚u nie trzeba uczyÄ‡ siÄ™ zbyt wiele o sieciach
+neuronowych aby mÃ³c takowÄ… skonstruowaÄ‡, wystarczy zdefiniowaÄ‡
+konstrukcjÄ™ sieci, nauczyÄ‡ zbiÃ³r wejÅ›Ä‡ i uÅ¼ywaÄ‡.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
