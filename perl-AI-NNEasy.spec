@@ -9,7 +9,7 @@ Summary:	AI::NNEasy - Define, learn and use easy Neural Networks of different ty
 Summary(pl.UTF-8):	AI::NNEasy - definiowanie, uczenie i używanie łatwych sieci neuronowych
 Name:		perl-AI-NNEasy
 Version:	0.06
-Release:	4
+Release:	5
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
@@ -91,6 +91,7 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes README
 %{perl_vendorarch}/AI/*.*
 %{perl_vendorarch}/AI/NNEasy
+%dir %{perl_vendorarch}/auto/AI/NNEasy
 %dir %{perl_vendorarch}/auto/AI/NNEasy/NN
 %dir %{perl_vendorarch}/auto/AI/NNEasy/NN/[bf]*
 %attr(755,root,root) %{perl_vendorarch}/auto/AI/NNEasy/*.so
