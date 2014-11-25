@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests		# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define	pdir	AI
 %define	pnam	NNEasy
+%include	/usr/lib/rpm/macros.perl
 Summary:	AI::NNEasy - Define, learn and use easy Neural Networks of different types
 Summary(pl.UTF-8):	AI::NNEasy - definiowanie, uczenie i używanie łatwych sieci neuronowych
 Name:		perl-AI-NNEasy
@@ -15,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-authors/id/G/GM/GMPASSOS/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	110f3b4b0e0f2575ef4f8dd3dfc8a0e4
+URL:		http://search.cpan.org/dist/AI-NNEasy/
 BuildRequires:	perl-Class-HPLOO >= 0.21
 BuildRequires:	perl-Inline >= 0.44
 BuildRequires:	perl-devel >= 1:5.8.0
