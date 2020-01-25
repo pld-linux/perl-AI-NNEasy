@@ -4,7 +4,6 @@
 
 %define	pdir	AI
 %define	pnam	NNEasy
-%include	/usr/lib/rpm/macros.perl
 Summary:	AI::NNEasy - Define, learn and use easy Neural Networks of different types
 Summary(pl.UTF-8):	AI::NNEasy - definiowanie, uczenie i używanie łatwych sieci neuronowych
 Name:		perl-AI-NNEasy
